@@ -1,0 +1,43 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: rubik, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    #4bbc8e,
+    #66c687,
+    #81ce7e,
+    #9ed676,
+    #bbdd6f
+  );
+}
+
+.data-image {
+  height: 250px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 1em;
+}
+
+input {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 10%;
+  margin-right: 5px;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 1em;
+}
+
+@media (max-width: 478px) {
+  input {
+    width: 60%;
+  }
+}
