@@ -29,6 +29,7 @@ function fetchPokemon() {
       <h1>Type:  ${pokemon.types.join(", ")}</h1>
       <h1>Weight: ${pokemon.weight} KG</h1>`;
     });
+  input.value = "";
 }
 
 fetchPokemon();
